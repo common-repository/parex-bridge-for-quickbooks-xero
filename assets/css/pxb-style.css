@@ -1,0 +1,149 @@
+.row {
+    margin-top: 20px;
+}
+.col {
+    /* border: solid 1px #6c757d; */
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 0px 4%;
+}
+.integration-title {
+    background-color: #ebebeb;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.description {
+    text-align: justify;
+    padding: 20px 10px;
+}
+.pxb-canvas {
+    border: 1px solid;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 30px 0px 30px 0px;
+}
+.img-connect{
+    width: 50%;
+}
+
+/* INPUT */
+body {
+    padding: 0px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 0px;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+button:focus, input:focus {
+    outline: none;
+}   
+
+.mm-number {
+    height: 100vh;
+    width: 100vw;
+}
+
+.mm-number-container {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.mm-number-input {
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mm-number-input-container {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.mm-number-input-item {
+    width: 40px;
+    height: 40px;
+    margin: 10px 2px;
+}
+
+.mm-number-input-item input {
+    width: 100%;
+    height: inherit;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid rgba(20,20,20,0.1);
+}
+
+.mm-number-input-submit {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    background: #f1f1f1;
+    color: #333;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.mm-number-input-submit:focus, .mm-number-input-submit:hover {
+    background: #333;
+    color: #f1f1f1;
+    cursor: pointer;
+}
